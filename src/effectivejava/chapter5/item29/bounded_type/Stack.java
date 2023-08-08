@@ -1,4 +1,4 @@
-package effectivejava.chapter5.item29.technqiue1;
+package effectivejava.chapter5.item29.bounded_type;
 import effectivejava.chapter5.item29.EmptyStackException;
 
 import java.util.Arrays;
