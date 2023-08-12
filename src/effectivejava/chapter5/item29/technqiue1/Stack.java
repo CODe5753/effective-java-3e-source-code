@@ -4,7 +4,7 @@ import effectivejava.chapter5.item29.EmptyStackException;
 import java.util.Arrays;
 
 // E[]를 이용한 제네릭 스택 (170-174쪽)
-public class Stack<E> {
+public class Stack<E> { // Stack<String>
     private E[] elements;
     private int size = 0;
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
@@ -19,7 +19,6 @@ public class Stack<E> {
 //        elements = new E[DEFAULT_INITIAL_CAPACITY];
 
         elements = (E[]) new Object[DEFAULT_INITIAL_CAPACITY];
-
     }
 
     public void push(E e) {
